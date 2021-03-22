@@ -688,7 +688,7 @@ void ppc_clear_irq(void)
 
 enum tfm_hal_status_t tfm_hal_platform_init(void)
 {
-    musca_s1_scc_mram_fast_read_enable(&MUSCA_S1_SCC_DEV);
+    // musca_s1_scc_mram_fast_read_enable(&MUSCA_S1_SCC_DEV);
 
     arm_cache_enable_blocking(&SSE_200_CACHE_DEV);
 
